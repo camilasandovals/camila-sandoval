@@ -4,9 +4,18 @@ export default function Header () {
     return(
         <header>
             <Container>
-                <Row>
+                <Row className="text-center">
                     <Col>
-                        <h1> Hello, I am Camila</h1>
+                        <p className="mt-5"> 👋 HELLO, I AM </p>
+                        <h1>Camila</h1>
+                        
+                    </Col>
+                    <Col>
+                        <img src="https://picsum.photos/seed/picsum/500/500" alt="image" />
+                
+                    </Col>
+                    <Col>
+                        
                     </Col>
                 </Row>
             </Container>
