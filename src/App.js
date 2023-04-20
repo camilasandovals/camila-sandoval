@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Quote from "./components/Quote";
 import Video from "./components/Video"
+import Grid from "./components/Grid"
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <About />
         <Quote />
+        <Grid />
         <Video />
         <Footer />
     </div>
