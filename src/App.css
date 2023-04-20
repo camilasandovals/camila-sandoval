@@ -1,5 +1,5 @@
 Header {
-    background-image: url("./images/bg.jpg"); 
+    background-image: url("/public/images/bg.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -16,5 +16,5 @@ h2{
 }
 
 p {
-    font-size: 30px;
+    font-size: 15px;
 }

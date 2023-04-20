@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function About() {
     return(
         <Container>
-            <Row>
-                <h2 className="text-center m-5"> About me </h2>
+            <Row className="text-center">
+                <h2 className="m-5"> About me </h2>
                 <Col>
                 <img src="https://picsum.photos/seed/picsum/500/500" alt="Camila Sandoval" />
                 </Col>

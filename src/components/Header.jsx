@@ -11,7 +11,7 @@ export default function Header () {
                         
                     </Col>
                     <Col>
-                        <img src="https://picsum.photos/seed/picsum/500/500" alt="image" />
+                        <img src="/images/profile.png" width={540} alt="image" />
                 
                     </Col>
                     <Col>
