@@ -4,15 +4,18 @@ body {
 h1{
     font-size: clamp(90px, 10vw, 150px); 
     font-weight: 900;
-    color: #ff47a9
+    color: #ff47a9;
+   
 }
 
 h2{
     font-size: 50px;
     font-weight: 700;
+    color: #ff47a9;
 }
 
 h3 {
+    margin-top: 20px;
     font-size: 35px;
     font-weight: 500;
 }
@@ -24,7 +27,7 @@ h4 {
 
 p {
     font-size: clamp(20px, 4vw, 17px);
-    color:gray;
+    color:rgb(98, 98, 98);
     padding: 10px;
 }
 
@@ -39,18 +42,35 @@ header img {
     filter: drop-shadow(-10px -20px 20px #00000072);
 }
 
+.about-container button {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    background-color: white;
+    font-family: "Orbitron", sans-serif;
+    width: 150px;
+    text-align: center;
+    border-color: #ff47a9;
+    
+}
 .header-text-container{
     margin-top: 50px;
 }
 
 .about-container img {
-    filter: drop-shadow(-10px -20px 20px #5151512c);
+    /* filter: drop-shadow(-10px -20px 20px #5151512c); */
+    margin-bottom: 100px;
 }
 
+
+section {
+    padding: 50px
+}
 .about-container h3{
     color: #f2188cae;
     text-align: left;
 }
+
 
 .quote-container{
     background-image: url("/public/images/bg.jpg"); 
@@ -60,11 +80,12 @@ header img {
 }
 
 .container {
-    padding: 30px;
     padding-bottom: 0;
 }
 
-
+.quote-container {
+    padding: 40px;
+}
 
 .quote-container p {
     font-size: clamp(30px, 4vw, 40px);
@@ -74,12 +95,27 @@ header img {
 .quote-container q {
     font-size: 105%;
 }
+
+.quote-container h4 {
+    text-align: center;
+}
 .carousel-container {
     padding: 15px
 }
+
 
 Footer {
     text-align: center;
     color: #20202033
 }
 
+a:link,
+a:visited {
+    color: #ff47a9;
+    text-decoration: none
+}
+
+a:hover{
+    color: #ff47a9;
+    text-decoration: none
+}
