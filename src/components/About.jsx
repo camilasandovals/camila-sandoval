@@ -4,15 +4,15 @@ export default function About() {
   return (
     <section className="about-container">
       <Container>
-        <Row className="text-center align-items-center">
+        <Row className="text-center  justify-content-center align-items-center">
           <h2 className="m-5 text-center">About me</h2>
-          <Col>
-            <img src="/images/cs2.png" width={500} alt="Camila Sandoval" />
+          <Col sm={12} md={6} className="image-container2">
+            <img src="/images/cs2.png" className="img-fluid" alt="Camila Sandoval" />
           </Col>
           <Col>
             <h3>MY INTRO</h3>
             <h4>
-              I am <span style={{ fontWeight: "900" }}>Camila Sandoval.</span>
+              I am <span style={{ fontWeight: "800" }}>Camila.</span>
             </h4>
 
             <h3 style={{ color: "gray" }}>

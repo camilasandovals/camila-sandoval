@@ -11,7 +11,7 @@ export default function Header() {
     <header>
       <Container>
         <Row className="text-center">
-          <Col sm={12} md={7} className="header-text-container" style={{ zIndex: 1, paddingTop: "200px" }}>
+          <Col sm={12} md={7} className="header-text-container" style={{ zIndex: 1, paddingTop: "50px" }}>
             <h3>👋 HELLO, I AM</h3>
             <h1>Camila</h1>
             <h3>
@@ -22,8 +22,11 @@ export default function Header() {
             </h3>
           </Col>
           <Col sm={12} md={3} className="image-container" style={{ zIndex: 0 }}>
-            <img className="mt-5" src="/images/profile.png" width={500} alt="image" />
-          </Col>
+            <img className="mt-5 img-fluid" src="/images/profile.png" alt="image" />
+            </Col>
+          <Col md={2}>
+                
+          </Col >
         </Row>
       </Container>
     </header>

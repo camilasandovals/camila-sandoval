@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "camila-sandoval-website",
+    "production": "camila-sandoval-profile"
+  },
+  "targets": {},
+  "etags": {}
+}
