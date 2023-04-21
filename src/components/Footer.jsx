@@ -7,7 +7,7 @@ export default function Footer() {
         <footer>
             <Container>
                 <Row>
-                    <Col>
+                    <Col >
                         <p>&copy; {currentYear} - Camila Sandoval </p>
                     </Col>
                 </Row>
