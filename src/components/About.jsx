@@ -37,9 +37,9 @@ export default function About() {
             </Row>
 
             <Row className="justify-content-center">
-              <button variant="primary" href="mailto:milasandovalsantana@gmail.com">
-                Get in touch
-              </button>
+              <a href="mailto:csandoval.eng@gmail.com">
+                <button variant="primary" type="button">Get in touch</button>
+              </a>
             </Row>
           </Col>
         </Row>
