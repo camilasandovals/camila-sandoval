@@ -3,20 +3,19 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 export default function About() {
   return (
     <section className="about-container">
-      <Container>
-        <Row className="text-center  justify-content-center align-items-center">
-          <h2 className="m-5 text-center">About me</h2>
+      <Container >
+        <Row className="text-center justify-content-center align-items-center gx-5">
           <Col sm={12} md={6} className="image-container2">
             <img src="/images/cs2.png" className="img-fluid" alt="Camila Sandoval" />
           </Col>
-          <Col>
-            <h3>MY INTRO</h3>
+          <Col sm={12} md={6}>
+            <h3>ABOUT ME</h3>
             <h4>
-              I am <span style={{ fontWeight: "800" }}>Camila.</span>
+              I am <span style={{ fontWeight: "800" }}>Camila Sandoval.</span>
             </h4>
 
             <h3 style={{ color: "gray" }}>
-              Full Stack Developer based in the US.
+               Full Stack Developer.
             </h3>
             <Row>
               <p>
@@ -38,7 +37,7 @@ export default function About() {
 
             <Row className="justify-content-center">
               <a href="mailto:csandoval.eng@gmail.com">
-                <button variant="primary" type="button">Get in touch</button>
+                <button variant="primary" type="button">Download CV</button>
               </a>
             </Row>
           </Col>

@@ -1,11 +1,11 @@
 body {
     background-color: rgb(255, 255, 255);
 }
+
 h1{
-    font-size: clamp(70px, 10vw, 120px); 
+    font-size: clamp(70px, 10vw, 180px); 
     font-weight: 900;
     color: #ff47a9;
-   
 }
 
 h2{
@@ -15,9 +15,11 @@ h2{
 }
 
 h3 {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 5%;
+    font-size: clamp(30px, 10vw, 40px);
     font-weight: 500;
+    margin-bottom: 5%;
+    
 }
 
 h4 {
@@ -31,7 +33,8 @@ p {
     padding: 10px;
 }
 
-Header{
+
+header{
     background-image: url("/public/images/bg.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,24 +45,32 @@ header img {
     filter: drop-shadow(-10px -20px 20px #00000072);
 }
 
+button {
+    padding: 5px;
+    background-color: white;
+    width: 151px;
+    text-align: center;
+    border-color: #ff47a9;
+    font-size: 21px;
+    
+}
+
 .about-container button {
     padding: 10px;
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 25px;
     background-color: white;
-    font-family: "Orbitron", sans-serif;
-    width: 150px;
+    width: 200px;
     text-align: center;
     border-color: #ff47a9;
     
 }
-.header-text-container{
-    margin-top: 50px;
-}
 
-.about-container img {
+.about-container {
     /* filter: drop-shadow(-10px -20px 20px #5151512c); */
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
 }
 
 
@@ -103,6 +114,37 @@ section {
     padding: 15px
 }
 
+section {
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-bottom: 60px;
+}
+.portfolio h3{
+    color: #f2188cae;
+}
+.portfolio div {
+    margin-bottom: 40px;
+}
+
+
+.portfolio img {
+    filter: brightness(0.8);
+    transition: 
+      transform 0.4s ease-in-out, 
+      filter 0.4s ease-in-out;
+    margin-bottom: 30px;
+  }
+  
+.portfolio img:hover {
+    filter: brightness(1.0);
+    transform: scale(1.2);
+    transition: 
+      transform 0.4s ease-in-out, 
+      filter 0.4s ease-in-out;
+  }
+
 
 Footer {
     text-align: center;
@@ -122,14 +164,15 @@ a:hover{
 
 @media (max-width: 768px) {
     .image-container img {
-      max-width: 65%;
+      max-width: 50%;
       height: auto;
     }
   }
 
   @media (max-width: 768px) {
     .image-container2 img {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
     }
   }
+

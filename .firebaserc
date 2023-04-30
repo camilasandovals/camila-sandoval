@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "camila-sandoval-website",
-    "production": "camila-sandoval-profile"
+    "default": "camila-sandoval-profile",
+    "production": "much-todo-api-cs"
   },
   "targets": {},
   "etags": {}
