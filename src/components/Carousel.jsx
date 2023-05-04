@@ -2,40 +2,20 @@ import { Col, Container, Row, Carousel, CarouselItem } from "react-bootstrap";
 
 export default function PicCarousel () {
     return (
-        <section>
-            <Container className="carousel-container">
-                <Row>
-                    <Col className="p-0"> 
-                        <Carousel fade>
+        <section className="section-carousel">
+            <Container>
+                <Row className="justify-content-center">
+                    <Col className="p-0" lg={8}> 
+                        <Carousel fade className="carousel-container">
                             <Carousel.Item>
-                                <img src="/images/pic.png"
-                                className="d-block w-100 carousel-img"
-                                alt="slide 1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/images/pic1.png"
-                                className="d-block w-100 carousel-img"
-                                alt="slide 1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/images/pic2.png" 
-                                className="d-block w-100 carousel-img"
-                                alt="" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/images/pic3.png" 
-                                className="d-block w-100 carousel-img"
-                                alt="" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/images/pic4.JPG"
-                                className="d-block w-100 carousel-img"
-                                alt="slide 1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src="/images/pic5.JPG"
-                                className="d-block w-100 carousel-img"
-                                alt="slide 1" />
+                                <div style={{padding:30}}>
+                                    <img src="/images/cs2.png"
+                                    alt="slide 1"/>
+                                </div>
+                                <div style={{padding:30}}>
+                                <h2>First Item</h2>
+                                <p>First item are greate because they are the best and I must learn to write better english.</p>
+                                </div>
                             </Carousel.Item>
                         </Carousel>
                     </Col>

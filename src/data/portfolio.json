@@ -1,64 +1,55 @@
 [
     {
-        "id":"1",
-        "name":"Final project",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "",
-        "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
-        "about": ""
-    }
-    ,
-    {
         "id":"2",
         "name":"Much TODO",
-        "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express"],
-        "cover": "../../public/images/portfolio/todo.png",
-        "website":"",
-        "about": "Full stack app where users can add, modify and delete tasks. Counts with login, sign up and authentication"
+        "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
+        "cover": "https://github.com/milasandovals/much-todo-web/raw/main/public/images/screen.png",
+        "website":"https://much-todo-cs.web.app",
+        "about": "Full stack app where users can read, add, modify and delete tasks. Counts with login, sign up and authentication."
     }
     ,
     {
         "id":"3",
-        "name":"Final project",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "",
-        "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
-        "about": ""
+        "name":"Recipes App",
+        "skills": ["JavaScript","NodeJS","HTML","CSS","React", "Bootstrap"],
+        "cover": "https://github.com/milasandovals/recipes-app/raw/main/public/images/screen.png",
+        "website":"https://milasandovals.github.io/recipes-app/",
+        "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes."
     }
     ,
     {
         "id":"4",
         "name":"Quiz App",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
+        "skills": ["JavaScript","HTML", "CSS", "React", "Bootstrap"],
         "cover": "https://github.com/milasandovals/quiz-app/raw/main/public/images/screen.png",
         "website":"https://quiz-app-camila.web.app",
-        "about": ""
+        "about": "App that simulates a quiz and gives a result to the user. Built using hooks in React. Gets the information from a JSON file."
     }
     ,
     {
         "id":"5",
-        "name":"Final project",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "",
+        "name":"ChatGPT Therapist",
+        "skills": ["JavaScript","NodeJS","HTML","CSS", "Express", "AntDesign"],
+        "cover": "https://github.com/milasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
         "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
-        "about": ""
+        "about": "A web app that uses ChatGPT to serve as your therapist! Front-end is connected to ChatGPT to simulate a real human therapist."
     }
     ,
     {
         "id":"6",
         "name":"Live Clock",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
+        "skills": ["HTML","CSS"],
         "cover": "https://github.com/milasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
-        "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
+        "website":"https://bluenight-clock-cs.web.app/",
         "about": ""
     },
     {
         "id":"7",
-        "name":"Finct",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "",
-        "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
-        "about": ""
+        "name":"Jokes App",
+        "skills": ["ReactNative", "CSS", "JavaScript"],
+        "cover": "https://user-images.githubusercontent.com/83136741/235810177-59709ff3-d49e-4009-8ae8-fdc00dd240ae.PNG",
+        "website":"https://github.com/milasandovals/jokes-app",
+        "about": "Mobile app built in React Native"
     },
     {
         "id":"8",
@@ -99,6 +90,14 @@
         "cover": "https://github.com/milasandovals/kardashev-scale/raw/main/src/images/readme.png",
         "website":"https://milasandovals.github.io/kardashev-scale/",
         "about": ""
+    },    
+    {
+        "id":"13",
+        "name":"Lunch Spot",
+        "skill": ["ReactNative", "CSS", "JavaScript"],
+        "cover": "https://user-images.githubusercontent.com/83136741/235789360-9fa834b6-503a-4769-bfb2-9b056817f48a.PNG",
+        "website":"https://github.com/milasandovals/lunch-spot",
+        "about": "Mobile app built in React Native"
     }
 
 ]

@@ -3,11 +3,11 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Quote from "./components/Quote";
-import Grid from "./components/Grid"
 import Questions from "./components/Questions";
 import PicCarousel from "./components/Carousel"
-import "bootstrap/dist/css/bootstrap.min.css"
+import Portfolio from "./components/Portfolio";
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
 
@@ -17,9 +17,9 @@ function App() {
         <Header />
         <About />
         <Quote />
-        <Grid />
+        <Portfolio />
         {/* <Questions /> */}
-        {/* <PicCarousel /> */}
+        <PicCarousel />
        
         <Footer />
       </>
