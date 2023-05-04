@@ -4,7 +4,10 @@ export default function PicCarousel () {
     return (
         <section className="section-carousel">
             <Container>
-                <Row className="justify-content-center">
+                <Row className="p-3">
+                    <h2>My Recommendations</h2>
+                </Row>
+                <Row className="justify-content-center p-3">
                     <Col className="p-0" lg={8}> 
                         <Carousel fade className="carousel-container">
                             <Carousel.Item>

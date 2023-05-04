@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { Github } from "bootstrap-icons"
+import { Github } from "react-bootstrap-icons"
 export default function Footer() {
 
     const currentYear = new Date().getFullYear()
@@ -8,8 +8,8 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col >
-                        <p>&copy; {currentYear} - Camila Sandoval </p>
-                        <p><Github /></p>
+                        <a href="https://github.com/milasandovals"><Github size={35} color="black"/></a>
+                        <p>&copy; {currentYear} - Camila Sandoval</p>
                     </Col>
                 </Row>
             </Container>

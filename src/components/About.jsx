@@ -5,10 +5,10 @@ export default function About() {
     <section className="about-container">
       <Container >
         <Row className="text-center justify-content-center align-items-center gx-5">
-          <Col sm={12} md={6} className="image-container2">
+          <Col sm={12} md={5} className="image-container2">
             <img src="/images/cs2.png" className="img-fluid" alt="Camila Sandoval" />
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={5}>
             <h3>ABOUT ME</h3>
             <h4>
               I am <span style={{ fontWeight: "800" }}>Camila Sandoval.</span>
