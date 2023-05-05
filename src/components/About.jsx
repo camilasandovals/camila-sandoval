@@ -37,7 +37,7 @@ export default function About() {
 
             <Row className="justify-content-center">
               <a href="mailto:csandoval.eng@gmail.com">
-                <button variant="primary" type="button">Download CV</button>
+              <Button variant="primary">Download CV</Button>
               </a>
             </Row>
           </Col>

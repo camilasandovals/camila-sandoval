@@ -3,7 +3,7 @@
         "id":"2",
         "name":"Much TODO",
         "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
-        "cover": "https://github.com/milasandovals/much-todo-web/raw/main/public/images/screen.png",
+        "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
         "website":"https://much-todo-cs.web.app",
         "about": "Full stack app where users can read, add, modify and delete tasks. Counts with login, sign up and authentication."
     }
@@ -12,8 +12,8 @@
         "id":"3",
         "name":"Recipes App",
         "skills": ["JavaScript","NodeJS","HTML","CSS","React", "Bootstrap"],
-        "cover": "https://github.com/milasandovals/recipes-app/raw/main/public/images/screen.png",
-        "website":"https://milasandovals.github.io/recipes-app/",
+        "cover": "https://github.com/camilasandovals/recipes-app/raw/main/public/images/screen.png",
+        "website":"https://camilasandovals.github.io/recipes-app/",
         "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes."
     }
     ,
@@ -21,7 +21,7 @@
         "id":"4",
         "name":"Quiz App",
         "skills": ["JavaScript","HTML", "CSS", "React", "Bootstrap"],
-        "cover": "https://github.com/milasandovals/quiz-app/raw/main/public/images/screen.png",
+        "cover": "https://github.com/camilasandovals/quiz-app/raw/main/public/images/screen.png",
         "website":"https://quiz-app-camila.web.app",
         "about": "App that simulates a quiz and gives a result to the user. Built using hooks in React. Gets the information from a JSON file."
     }
@@ -30,8 +30,8 @@
         "id":"5",
         "name":"ChatGPT Therapist",
         "skills": ["JavaScript","NodeJS","HTML","CSS", "Express", "AntDesign"],
-        "cover": "https://github.com/milasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
-        "website":"https://cdn0.recetasgratis.net/es/posts/9/3/1/brocoli_salteado_con_jamon_64139_orig.jpg",
+        "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
+        "website":"",
         "about": "A web app that uses ChatGPT to serve as your therapist! Front-end is connected to ChatGPT to simulate a real human therapist."
     }
     ,
@@ -39,31 +39,31 @@
         "id":"6",
         "name":"Live Clock",
         "skills": ["HTML","CSS"],
-        "cover": "https://github.com/milasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
+        "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
         "website":"https://bluenight-clock-cs.web.app/",
-        "about": ""
+        "about": "A "
     },
     {
         "id":"7",
         "name":"Jokes App",
         "skills": ["ReactNative", "CSS", "JavaScript"],
         "cover": "https://user-images.githubusercontent.com/83136741/235810177-59709ff3-d49e-4009-8ae8-fdc00dd240ae.PNG",
-        "website":"https://github.com/milasandovals/jokes-app",
+        "website":"https://github.com/camilasandovals/jokes-app",
         "about": "Mobile app built in React Native"
     },
     {
         "id":"8",
         "name":"Musician Portfolio",
-        "skills": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "https://github.com/milasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
-        "website":"https://milasandovals.github.io/bass-player-web-portfolio/",
+        "skills": [],
+        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
+        "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
         "about": ""
     },
     {
         "id":"9",
         "name":"Codice de Boca",
-        "skill": ["Broccoli","Garlic","butter","pepper","salt","rosemary", "olive oil"],
-        "cover": "https://github.com/milasandovals/js-codice-boca/raw/main/assets/readme.png",
+        "skill": [""],
+        "cover": "https://github.com/camilasandovals/js-codice-boca/raw/main/assets/readme.png",
         "website":"https://codice-boca-cs.web.app",
         "about": ""
     },
@@ -80,23 +80,23 @@
         "name":"Counter App",
         "skill": ["JavaScript","HTML","CSS", "React"],
         "cover": "https://user-images.githubusercontent.com/83136741/232336067-1c404508-1d81-4f1c-8ab4-1d2618ed26df.png",
-        "website":"https://milasandovals.github.io/react-counter-app/",
-        "about": ""
+        "website":"https://camilasandovals.github.io/react-counter-app/",
+        "about": "a React.js app that showcases the useState() hook. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components."
     },    
     {
         "id":"12",
         "name":"Kardashev Scale",
         "skill": ["HTML","CSS"],
         "cover": "https://github.com/milasandovals/kardashev-scale/raw/main/src/images/readme.png",
-        "website":"https://milasandovals.github.io/kardashev-scale/",
-        "about": ""
+        "website":"https://camilasandovals.github.io/kardashev-scale/",
+        "about": "This project includes the fundamentals of web development, including HTML and CSS. As part of a class project, we applied this knowledge to create a web page that explains the concept of the Kardashev Scale."
     },    
     {
         "id":"13",
         "name":"Lunch Spot",
         "skill": ["ReactNative", "CSS", "JavaScript"],
         "cover": "https://user-images.githubusercontent.com/83136741/235789360-9fa834b6-503a-4769-bfb2-9b056817f48a.PNG",
-        "website":"https://github.com/milasandovals/lunch-spot",
+        "website":"https://github.com/camilasandovals/lunch-spot",
         "about": "Mobile app built in React Native"
     }
 

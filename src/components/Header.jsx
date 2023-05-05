@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function Header() {
@@ -20,7 +20,7 @@ export default function Header() {
             </span>
           </h3>
           <a href="mailto:csandoval.eng@gmail.com">
-                <button variant="primary" type="button">Get in touch</button>
+            <Button variant="primary">Get in touch</Button>
               </a>
         </Col>
         <Col sm={12} md={3} className="image-container" style={{ zIndex: 0 , paddingLeft:0 }}>

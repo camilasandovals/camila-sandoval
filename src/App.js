@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
+import Menubar from "./components/Menubar";
 import About from "./components/About";
 import Quote from "./components/Quote";
 import Questions from "./components/Questions";
@@ -13,7 +13,7 @@ function App() {
 
   return (
       <>
-        {/* <Navigation /> */}
+        <Menubar />
         <Header />
         <About />
         <Quote />
