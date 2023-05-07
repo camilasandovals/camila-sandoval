@@ -9,10 +9,10 @@ export default function About() {
             <img src="/images/cs2.png" className="img-fluid" alt="Camila Sandoval" />
           </Col>
           <Col sm={12} md={5}>
-            <h3>ABOUT ME</h3>
-            <h4>
+            <h2>ABOUT ME</h2>
+            <h3 style={{color:"black"}}>
               I am <span style={{ fontWeight: "800" }}>Camila Sandoval.</span>
-            </h4>
+            </h3>
 
             <h3 style={{ color: "gray" }}>
                Full Stack Developer.

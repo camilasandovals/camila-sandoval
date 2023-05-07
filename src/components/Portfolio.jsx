@@ -7,7 +7,19 @@ export default function Portfolio() {
             <section className="portfolio">
                 <Container id="gallery">
                     <Row className="justify-content-center">
-                        <Col className="text-center"><h2>My Portfolio</h2></Col>
+                        <Col className="text-center"><h2>MY PORTFOLIO</h2></Col>
+                    </Row>
+
+                    <Row className="justify-content-center">
+                        <Col  sm={6}>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Full Stack Development</option>
+                            <option value="1">Mobile development</option>
+                            <option value="2">Machine Learning</option>
+                           
+                        </select>
+                        </Col>
+                        
                     </Row>
 
                     <Row>

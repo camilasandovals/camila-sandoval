@@ -3,23 +3,20 @@ body {
 }
 
 h1{
-    font-size: clamp(70px, 10vw, 180px) !important;
+    font-size: clamp(60px, 10vw, 180px) !important;
     font-weight: 900 !important;
     color: #ff47a9;
 }
 
 h2{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: clamp(30px, 1px, 30px) !important;
+    font-weight: 700 !important;
     color: #ff47a9;
 }
 
 h3 {
-    margin-top: 5%;
-    font-size: clamp(30px, 10vw, 40px);
-    font-weight: 500;
-    margin-bottom: 5%;
-    
+    font-size: clamp(22px, 1px, 40px) !important;
+    font-weight: 500 !important;
 }
 
 h4 {
@@ -28,7 +25,7 @@ h4 {
 }
 
 p {
-    font-size: clamp(20px, 4vw, 17px);
+    font-size: clamp(16px, 2vw, 18px);
     color:rgb(98, 98, 98);
     padding: 10px;
 }
@@ -39,37 +36,20 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
+    height: 100%; 
+    padding-top: 50px;
 }
 
 header img {
     filter: drop-shadow(-10px -20px 20px #00000072);
 }
 
-button {
-    padding: 5px;
-    background-color: white;
-    width: 151px;
-    text-align: center;
-    border-color: #ff47a9;
-    font-size: 21px;
-    
-}
 
-.about-container button {
-    padding: 10px;
-    margin: 20px;
-    margin-top: 25px;
-    background-color: white;
-    width: 200px;
-    text-align: center;
-    border-color: #ff47a9;
-    
-}
+
 
 .about-container {
     /* filter: drop-shadow(-10px -20px 20px #5151512c); */
     margin-bottom: 20px;
-    margin-top: 30px;
 
 }
 
@@ -100,7 +80,7 @@ button {
 }
 
 .quote-container q {
-    font-size: 105%;
+    font-size: 100%;
 }
 
 .quote-container h4 {

@@ -13,7 +13,7 @@ export default function Header() {
         <Col sm={12} md={7} style={{ zIndex: 1, paddingRight:0 }}>
           <h3>👋 HELLO, I AM</h3>
           <h1>Camila</h1>
-          <h3 style={{paddingBottom:40}}>
+          <h3 style={{paddingBottom:25}}>
             I am a <span style={{ color: "purple" }}>{text}</span>{" "}
             <span>
               <Cursor />
