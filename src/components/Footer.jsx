@@ -8,7 +8,7 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col >
-                        <a href="https://github.com/milasandovals"><Github size={35} color="black"/></a>
+                        <a href="https://github.com/camilasandovals"><Github size={35} color="black"/></a>
                         <p>&copy; {currentYear} - Camila Sandoval</p>
                     </Col>
                 </Row>

@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button';
 
 export default function Menubar() {
   return (
-    <header className='header' id="top">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="/" style={{
@@ -19,23 +18,22 @@ export default function Menubar() {
             marginTop: '4px'
           }} className="header-logo">
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle />
+          <Navbar.Collapse >
             <Nav className="me-auto">
             </Nav>
-            <Nav>
-              <Nav.Link href="/portfolio" >Portfolio</Nav.Link>
-              <Nav.Link href="/aboutme">About me</Nav.Link>
-              <Nav.Link href="/recommendations">Recommendations</Nav.Link>
-              <Nav.Link href="/alumni">Alumni</Nav.Link>
-              <Nav.Link className="navbar-cta" href="/get-started">
-                <Button variant="primary">Download CV</Button>
+            <Nav >
+              <Nav.Link href="/portfolio" style={{ paddingLeft: "50px" }}>Portfolio</Nav.Link>
+              <Nav.Link href="/aboutme" style={{ paddingLeft: "50px" }} >About me</Nav.Link>
+              <Nav.Link href="/recommendations" style={{ paddingLeft: "50px" }}>Recommendations</Nav.Link>
+              <Nav.Link href="/alumni" style={{ paddingLeft: "50px" }}>Alumni</Nav.Link>
+              <Nav.Link className="navbar-cta" href="/get-started" style={{ paddingLeft: "50px" }}>
+                <Button variant="primary" >Download CV</Button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </header>
   );
 }
 
