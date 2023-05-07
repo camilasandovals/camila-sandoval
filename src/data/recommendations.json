@@ -6,17 +6,18 @@
       "company": "City Furniture",
       "img":
         "https://media.licdn.com/dms/image/D4E03AQHQC1769U2DdA/profile-displayphoto-shrink_400_400/0/1675974455444?e=1688601600&v=beta&t=DCJ2fN4DXkkDJkSRpt1loz5Tqo2R1kSwhvL6zgdB-zs",
-      "icon": "assets/twitter.png",
+      "web": "",
       "desc":
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem."
     },
     {
       "id": 2,
       "name": "Damian Montero",
-      "title": "Co-Founder of DELKA",
+      "company": "SMArtX Advisory Solutions",
+      "title": "Software Engineering Manager",
       "img":
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      "icon": "assets/youtube.png",
+        "https://media.licdn.com/dms/image/C5603AQFDXRZysQMhxQ/profile-displayphoto-shrink_400_400/0/1646929609877?e=1689206400&v=beta&t=vmpg8YhfP5iDAg1XqyxngbEREfK5bPPT50uAvMkwobo",
+      "web": "",
       "desc":
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
       "featured": true
@@ -24,10 +25,11 @@
     {
       "id": 3,
       "name": "Jiho Sohn",
-      "title": "CEO of ALBI",
+      "title": "Senior Instructor",
+      "company": "Boca Code",
       "img":
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      "icon": "assets/linkedin.png",
+        "https://media.licdn.com/dms/image/D4E03AQETVkCtDGSOVQ/profile-displayphoto-shrink_400_400/0/1683451240070?e=1689206400&v=beta&t=Fc54TPh3z-Uvn9z-IcoehheToknvm8SfBS3yCRXJqAY",
+      "web": "",
       "desc":
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem"
     }
