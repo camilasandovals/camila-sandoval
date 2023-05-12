@@ -23,10 +23,10 @@ export default function Menubar() {
             <Nav className="me-auto">
             </Nav>
             <Nav >
-              <Nav.Link href="/portfolio" style={{ paddingLeft: "50px" }}>Portfolio</Nav.Link>
+              <Nav.Link href="/home" style={{ paddingLeft: "50px" }}>Home</Nav.Link>
               <Nav.Link href="/aboutme" style={{ paddingLeft: "50px" }} >About me</Nav.Link>
+              <Nav.Link href="/portfolio" style={{ paddingLeft: "50px" }}>Portfolio</Nav.Link>
               <Nav.Link href="/recommendations" style={{ paddingLeft: "50px" }}>Recommendations</Nav.Link>
-              <Nav.Link href="/alumni" style={{ paddingLeft: "50px" }}>Alumni</Nav.Link>
               <Nav.Link className="navbar-cta" href="https://resumecs.s3.amazonaws.com/resume.pdf" style={{ paddingLeft: "50px" }}>
                 <Button variant="primary" >Download CV</Button>
               </Nav.Link>

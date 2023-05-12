@@ -9,7 +9,11 @@ export default function Portfolio() {
                     <Row className="justify-content-center">
                         <Col className="text-center"><h2>MY PORTFOLIO</h2></Col>
                     </Row>
+                    
 
+
+                    {/*  BAR TO SELECT PROJECTS  
+                    
                     <Row className="justify-content-center">
                         <Col  sm={6}>
                         <select class="form-select" aria-label="Default select example">
@@ -20,7 +24,7 @@ export default function Portfolio() {
                         </select>
                         </Col>
                         
-                    </Row>
+                    </Row> */}
 
                     <Row>
                     {
