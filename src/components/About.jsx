@@ -7,7 +7,7 @@ export default function About() {
         
         <Row className="text-center justify-content-center align-items-center gx-5">
           <Col sm={12} md={5} className="image-container2">
-            <img src="/images/cs2.png" className="img-fluid" alt="Camila Sandoval" />
+            <img src="/images/cs2.webp" className="img-fluid" alt="Camila Sandoval" />
           </Col>
           <Col sm={12} md={5}>
             <h2>ABOUT ME</h2>
