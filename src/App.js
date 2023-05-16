@@ -19,7 +19,7 @@ function App() {
         {/* {routes}  */}
         <Header />
         <About />
-        <Quote />
+        {/* <Quote /> */}
         <Portfolio />
         {/* <Questions /> */}
         {/* <PicCarousel /> */}

@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
+import {  Github, Instagram, Linkedin } from "react-bootstrap-icons";
 
 export default function About() {
   return (
@@ -35,11 +36,18 @@ export default function About() {
                 projects. 🚀
               </p>
             </Row>
-
-            <Row className="justify-content-center">
-              <a href="mailto:csandoval.eng@gmail.com">
-              <Button variant="primary">Download CV</Button>
-              </a>
+            <Row>
+              <Col>
+                <a href="https://github.com/camilasandovals" style={{ marginRight: '35px' }}>
+                  <Github size={35} color="gray" />
+                </a>
+                <a href="https://www.linkedin.com/in/camilasandovals/" style={{ marginRight: '35px' }}>
+                  <Linkedin size={35} color="gray" />
+                </a>
+                <a href="https://www.instagram.com/foreigncoders/">
+                  <Instagram size={35} color="gray" />
+                </a>
+              </Col>
             </Row>
           </Col>
         </Row>

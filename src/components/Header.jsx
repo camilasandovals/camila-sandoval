@@ -24,7 +24,7 @@ export default function Header() {
               </a>
         </Col>
         <Col sm={12} md={3} className="image-container" style={{ zIndex: 0 , paddingLeft:0 }}>
-          <img className="mt-5 img-fluid" src="/images/profile.png" alt="image" />
+          <img className="mt-5 img-fluid" src="/images/profile.webp" alt="image" />
         </Col>
       </Row>
     </header>

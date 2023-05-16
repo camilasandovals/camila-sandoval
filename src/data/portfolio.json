@@ -5,7 +5,7 @@
         "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
         "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
         "website":"https://much-todo-cs.web.app",
-        "about": "Full stack app where users can read, add, modify and delete tasks. Counts with login, sign up and authentication."
+        "about": "Full stack app where users can perform full CRUD, login, sign up, and authenticated for enhanced security."
     }
     ,
     {
@@ -28,11 +28,11 @@
     ,
     {
         "id":"5",
-        "name":"ChatGPT Therapist",
+        "name":"ChatGPT Therapy",
         "skills": ["JavaScript","NodeJS","HTML","CSS", "Express", "AntDesign"],
         "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
         "website":"",
-        "about": "A web app that uses ChatGPT to serve as your therapist! Front-end is connected to ChatGPT to simulate a real human therapist."
+        "about": "A web app built in React and connected to ChatGPT to simulate a real human therapist."
     }
     ,
     {
@@ -41,7 +41,7 @@
         "skills": ["HTML","CSS"],
         "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
         "website":"https://bluenight-clock-cs.web.app/",
-        "about": "A "
+        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time."
     },
     {
         "id":"7",
@@ -49,7 +49,7 @@
         "skills": ["ReactNative", "CSS", "JavaScript"],
         "cover": "https://user-images.githubusercontent.com/83136741/235810177-59709ff3-d49e-4009-8ae8-fdc00dd240ae.PNG",
         "website":"https://github.com/camilasandovals/jokes-app",
-        "about": "Mobile app built in React Native"
+        "about": "A React Native mobile app that utilizes the useEffect and useState hooks to fetch data from a sample API."
     },
     {
         "id":"8",
@@ -57,7 +57,7 @@
         "skills": [],
         "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
         "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
-        "about": ""
+        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors."
     },
     {
         "id":"9",
@@ -65,7 +65,7 @@
         "skill": [""],
         "cover": "https://github.com/camilasandovals/js-codice-boca/raw/main/assets/readme.png",
         "website":"https://codice-boca-cs.web.app",
-        "about": ""
+        "about": "A React application that efficiently retrieves and displays data from a simulated restaurant menu API."
     },
     {
         "id":"10",
@@ -73,7 +73,7 @@
         "skill": ["JavaScript","HTML", "React"],
         "cover": "https://user-images.githubusercontent.com/83136741/232942198-d80a603d-7558-44f1-99f3-e39a55707feb.png",
         "website":"https://wine-list-cs.web.app",
-        "about": ""
+        "about": "A React application that emulates a wine catalog, fetching and presenting data from an external API"
     },
     {
         "id":"11",
@@ -81,7 +81,7 @@
         "skill": ["JavaScript","HTML","CSS", "React"],
         "cover": "https://user-images.githubusercontent.com/83136741/232336067-1c404508-1d81-4f1c-8ab4-1d2618ed26df.png",
         "website":"https://camilasandovals.github.io/react-counter-app/",
-        "about": "a React.js app that showcases the useState() hook. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components."
+        "about": "An app that showcases the useState() hook by using a counter that increments and decrements."
     },    
     {
         "id":"12",
@@ -89,7 +89,7 @@
         "skill": ["HTML","CSS"],
         "cover": "https://github.com/milasandovals/kardashev-scale/raw/main/src/images/readme.png",
         "website":"https://camilasandovals.github.io/kardashev-scale/",
-        "about": "This project includes the fundamentals of web development, including HTML and CSS. As part of a class project, we applied this knowledge to create a web page that explains the concept of the Kardashev Scale."
+        "about": "Fundamentals of web development using HTML5 and CSS3 as a part of a class project."
     },    
     {
         "id":"13",
@@ -97,7 +97,7 @@
         "skill": ["ReactNative", "CSS", "JavaScript"],
         "cover": "https://user-images.githubusercontent.com/83136741/235789360-9fa834b6-503a-4769-bfb2-9b056817f48a.PNG",
         "website":"https://github.com/camilasandovals/lunch-spot",
-        "about": "Mobile app built in React Native"
+        "about": "A React Native mobile application that retrieves and displays data of various restaurants."
     }
 
 ]
